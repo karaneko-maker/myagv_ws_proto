@@ -1,0 +1,43 @@
+[2.436s] Invoking command in '/home/agv1/myagv_ws/src/build/myagv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agv1/myagv_ws/install/myagv_joy:/home/agv1/myagv_ws/install/myagv_communication:/home/agv1/ros2_ws/install/my_robot_controller:/home/agv1/agv1_ws/install/navigation2:/home/agv1/agv1_ws/install/agv_description:/home/agv1/agv1_ws/install/agv1_qrcode:/home/agv1/agv1_ws/install/agv1_navigation:/home/agv1/agv1_ws/install/agv1_QR:/opt/ros/humble /usr/bin/cmake /home/agv1/myagv_ws/src/myagv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agv1/myagv_ws/src/install/myagv_description
+[7.248s] -- The C compiler identification is GNU 11.4.0
+[7.248s] -- The CXX compiler identification is GNU 11.4.0
+[7.249s] -- Detecting C compiler ABI info
+[7.251s] -- Detecting C compiler ABI info - done
+[7.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.252s] -- Detecting C compile features
+[7.252s] -- Detecting C compile features - done
+[7.255s] -- Detecting CXX compiler ABI info
+[7.258s] -- Detecting CXX compiler ABI info - done
+[7.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[7.261s] -- Detecting CXX compile features
+[7.276s] -- Detecting CXX compile features - done
+[7.277s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.330s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.629s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[13.284s] -- Configuring done
+[13.309s] -- Generating done
+[13.319s] -- Build files have been written to: /home/agv1/myagv_ws/src/build/myagv_description
+[13.408s] Invoked command in '/home/agv1/myagv_ws/src/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agv1/myagv_ws/install/myagv_joy:/home/agv1/myagv_ws/install/myagv_communication:/home/agv1/ros2_ws/install/my_robot_controller:/home/agv1/agv1_ws/install/navigation2:/home/agv1/agv1_ws/install/agv_description:/home/agv1/agv1_ws/install/agv1_qrcode:/home/agv1/agv1_ws/install/agv1_navigation:/home/agv1/agv1_ws/install/agv1_QR:/opt/ros/humble /usr/bin/cmake /home/agv1/myagv_ws/src/myagv_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agv1/myagv_ws/src/install/myagv_description
+[13.420s] Invoking command in '/home/agv1/myagv_ws/src/build/myagv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agv1/myagv_ws/install/myagv_joy:/home/agv1/myagv_ws/install/myagv_communication:/home/agv1/ros2_ws/install/my_robot_controller:/home/agv1/agv1_ws/install/navigation2:/home/agv1/agv1_ws/install/agv_description:/home/agv1/agv1_ws/install/agv1_qrcode:/home/agv1/agv1_ws/install/agv1_navigation:/home/agv1/agv1_ws/install/agv1_QR:/opt/ros/humble /usr/bin/cmake --build /home/agv1/myagv_ws/src/build/myagv_description -- -j4 -l4
+[14.187s] Invoked command in '/home/agv1/myagv_ws/src/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agv1/myagv_ws/install/myagv_joy:/home/agv1/myagv_ws/install/myagv_communication:/home/agv1/ros2_ws/install/my_robot_controller:/home/agv1/agv1_ws/install/navigation2:/home/agv1/agv1_ws/install/agv_description:/home/agv1/agv1_ws/install/agv1_qrcode:/home/agv1/agv1_ws/install/agv1_navigation:/home/agv1/agv1_ws/install/agv1_QR:/opt/ros/humble /usr/bin/cmake --build /home/agv1/myagv_ws/src/build/myagv_description -- -j4 -l4
+[14.483s] Invoking command in '/home/agv1/myagv_ws/src/build/myagv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agv1/myagv_ws/install/myagv_joy:/home/agv1/myagv_ws/install/myagv_communication:/home/agv1/ros2_ws/install/my_robot_controller:/home/agv1/agv1_ws/install/navigation2:/home/agv1/agv1_ws/install/agv_description:/home/agv1/agv1_ws/install/agv1_qrcode:/home/agv1/agv1_ws/install/agv1_navigation:/home/agv1/agv1_ws/install/agv1_QR:/opt/ros/humble /usr/bin/cmake --install /home/agv1/myagv_ws/src/build/myagv_description
+[14.567s] -- Install configuration: ""
+[14.571s] -- Execute custom install script
+[14.586s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/urdf/agv.urdf
+[14.714s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/launch/tf_launch.py
+[14.767s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/ament_index/resource_index/package_run_dependencies/myagv_description
+[14.836s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/ament_index/resource_index/parent_prefix_path/myagv_description
+[14.893s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/environment/ament_prefix_path.sh
+[15.015s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/environment/ament_prefix_path.dsv
+[15.132s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/environment/path.sh
+[15.204s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/environment/path.dsv
+[15.276s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/local_setup.bash
+[15.337s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/local_setup.sh
+[15.397s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/local_setup.zsh
+[15.471s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/local_setup.dsv
+[15.589s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/package.dsv
+[15.701s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/ament_index/resource_index/packages/myagv_description
+[15.810s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/cmake/myagv_descriptionConfig.cmake
+[15.899s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/cmake/myagv_descriptionConfig-version.cmake
+[15.984s] -- Symlinking: /home/agv1/myagv_ws/src/install/myagv_description/share/myagv_description/package.xml
+[16.072s] Invoked command in '/home/agv1/myagv_ws/src/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/agv1/myagv_ws/install/myagv_joy:/home/agv1/myagv_ws/install/myagv_communication:/home/agv1/ros2_ws/install/my_robot_controller:/home/agv1/agv1_ws/install/navigation2:/home/agv1/agv1_ws/install/agv_description:/home/agv1/agv1_ws/install/agv1_qrcode:/home/agv1/agv1_ws/install/agv1_navigation:/home/agv1/agv1_ws/install/agv1_QR:/opt/ros/humble /usr/bin/cmake --install /home/agv1/myagv_ws/src/build/myagv_description

@@ -1,0 +1,3 @@
+[console_scripts]
+serial = agv1_navigation.serial:main
+

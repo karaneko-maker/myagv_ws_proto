@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating myagv_communication.egg-info
+writing myagv_communication.egg-info/PKG-INFO
+writing dependency_links to myagv_communication.egg-info/dependency_links.txt
+writing entry points to myagv_communication.egg-info/entry_points.txt
+writing requirements to myagv_communication.egg-info/requires.txt
+writing top-level names to myagv_communication.egg-info/top_level.txt
+writing manifest file 'myagv_communication.egg-info/SOURCES.txt'
+reading manifest file 'myagv_communication.egg-info/SOURCES.txt'
+writing manifest file 'myagv_communication.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/agv1/myagv_ws/src/install/myagv_communication/lib/python3.10/site-packages/myagv-communication.egg-link (link to .)
+Installing serial script to /home/agv1/myagv_ws/src/install/myagv_communication/lib/myagv_communication
+
+Installed /home/agv1/myagv_ws/src/build/myagv_communication
+running symlink_data
+creating /home/agv1/myagv_ws/src/install/myagv_communication/share/ament_index
+creating /home/agv1/myagv_ws/src/install/myagv_communication/share/ament_index/resource_index
+creating /home/agv1/myagv_ws/src/install/myagv_communication/share/ament_index/resource_index/packages
+symbolically linking /home/agv1/myagv_ws/src/build/myagv_communication/resource/myagv_communication -> /home/agv1/myagv_ws/src/install/myagv_communication/share/ament_index/resource_index/packages
+symbolically linking /home/agv1/myagv_ws/src/build/myagv_communication/package.xml -> /home/agv1/myagv_ws/src/install/myagv_communication/share/myagv_communication
+creating /home/agv1/myagv_ws/src/install/myagv_communication/share/myagv_communication/launch
+symbolically linking /home/agv1/myagv_ws/src/build/myagv_communication/launch/myagv_communication.launch.py -> /home/agv1/myagv_ws/src/install/myagv_communication/share/myagv_communication/launch

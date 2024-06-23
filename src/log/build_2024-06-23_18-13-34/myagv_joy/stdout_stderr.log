@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating myagv_joy.egg-info
+writing myagv_joy.egg-info/PKG-INFO
+writing dependency_links to myagv_joy.egg-info/dependency_links.txt
+writing entry points to myagv_joy.egg-info/entry_points.txt
+writing requirements to myagv_joy.egg-info/requires.txt
+writing top-level names to myagv_joy.egg-info/top_level.txt
+writing manifest file 'myagv_joy.egg-info/SOURCES.txt'
+reading manifest file 'myagv_joy.egg-info/SOURCES.txt'
+writing manifest file 'myagv_joy.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/agv1/myagv_ws/src/install/myagv_joy/lib/python3.10/site-packages/myagv-joy.egg-link (link to .)
+
+Installed /home/agv1/myagv_ws/src/build/myagv_joy
+running symlink_data
+creating /home/agv1/myagv_ws/src/install/myagv_joy/share/ament_index
+creating /home/agv1/myagv_ws/src/install/myagv_joy/share/ament_index/resource_index
+creating /home/agv1/myagv_ws/src/install/myagv_joy/share/ament_index/resource_index/packages
+symbolically linking /home/agv1/myagv_ws/src/build/myagv_joy/resource/myagv_joy -> /home/agv1/myagv_ws/src/install/myagv_joy/share/ament_index/resource_index/packages
+symbolically linking /home/agv1/myagv_ws/src/build/myagv_joy/package.xml -> /home/agv1/myagv_ws/src/install/myagv_joy/share/myagv_joy
+creating /home/agv1/myagv_ws/src/install/myagv_joy/share/myagv_joy/launch
+symbolically linking /home/agv1/myagv_ws/src/build/myagv_joy/launch/myagv_joy.launch.py -> /home/agv1/myagv_ws/src/install/myagv_joy/share/myagv_joy/launch
