@@ -13,9 +13,10 @@ class DiffDriveController(Node):
     
     def listener_callback(self, Twist):
         d = 0.35
-        vel_r = (Twist.linear.x + d*Twist.angular.z)*240    #385(0.95) 150
-        vel_l = (Twist.linear.x - d*Twist.angular.z)*240   
+        vel_r = (Twist.linear.x + d*Twist.angular.z)*240    #385(0.95)
+        vel_l = (Twist.linear.x - d*Twist.angular.z)*234    #232 
 
+        '''    
         if vel_r < 0:
             vel_r =0
         elif vel_r > 120:
@@ -25,14 +26,14 @@ class DiffDriveController(Node):
             vel_l =0
         elif vel_l > 120:
             vel_l = 120
-
+        '''
         
         self.get_logger().info("Velocity: right=%f" % (vel_r))
         self.get_logger().info("Velocity: left=%f" % (vel_l))   
 
         array = []
-        array.append(vel_r)
         array.append(vel_l)
+        array.append(vel_r)
 
         self.motor_cont = Float32MultiArray(data=array)
         self.publisher.publish(self.motor_cont)
