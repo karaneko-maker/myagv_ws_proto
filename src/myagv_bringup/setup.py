@@ -1,6 +1,8 @@
 from setuptools import find_packages, setup
+import os
+from glob import glob
 
-package_name = 'myagv_communication'
+package_name = 'myagv_bringup'
 
 setup(
     name=package_name,
@@ -10,7 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/myagv_communication.launch.py']),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,11 +22,6 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            "serial = myagv_communication.serial:main",
-            'pd_control_node = myagv_communication.pd_control_node:main',
-            "diff_drive_controller_node = myagv_communication.diff_drive_controller:main",
-            "move_control_node = myagv_communication.move_control_node:main",
-        ],
+        'console_scripts': [],
     },
 )

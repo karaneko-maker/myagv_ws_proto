@@ -8,8 +8,8 @@ import os
 
 def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='False')
-    map_yaml_file = LaunchConfiguration('map', default='/home/agv1/myagv_ws/map_1718364393.yaml')
-    params_file = LaunchConfiguration('params_file', default='/home/agv1/myagv_ws/src/my_param/agv1_param.yaml')
+    map_yaml_file = LaunchConfiguration('map', default='/home/agv2/myagv_ws/src/myagv_navigation/map/map_1718364393.yaml')
+    params_file = LaunchConfiguration('params_file', default='/home/agv2/myagv_ws/src/my_param/agv1_param.yaml')
 
     # Nav2 bringup launch
     nav2_bringup_dir = get_package_share_directory('nav2_bringup')
@@ -41,12 +41,12 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             'map',
-            default_value='/home/agv1/myagv_ws/map_1718364393.yaml',
+            default_value='/home/agv2/myagv_ws/src/myagv_navigation/map/map_1718364393.yaml',
             description='Full path to map yaml file to load'
         ),
         DeclareLaunchArgument(
             'params_file',
-            default_value='/home/agv1/myagv_ws/src/my_param/agv1_param.yaml',
+            default_value='/home/agv2/myagv_ws/src/my_param/agv1_param.yaml',
             description='Full path to the ROS2 parameters file to use for all launched nodes'
         ),
         nav2_bringup_launch,

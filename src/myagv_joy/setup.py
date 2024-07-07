@@ -52,6 +52,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "teleop_twist_joy_node = myagv_joy.teleop_twist_joy:main"
         ],
     },
 )

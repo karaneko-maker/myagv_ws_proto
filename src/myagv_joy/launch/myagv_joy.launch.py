@@ -1,24 +1,3 @@
-# import launch
-# from launch import LaunchDescription
-# from launch_ros.actions import Node
-
-# def generate_launch_description():
-#     ld = LaunchDescription()
-
-#     joy_node = Node(
-#         package="joy",
-#         executable="joy_node"
-#     )
-
-#     teleop_twist_joy_node = Node(
-#         package="myagv_joy",
-#         executable="teleop_twist_joy"
-#     )
-
-#     ld.add_action(joy_node)
-#     ld.add_action(teleop_twist_joy_node)
-
-#     return ld
 
 from launch import LaunchDescription
 from launch_ros.actions import Node

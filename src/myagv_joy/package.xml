@@ -13,7 +13,12 @@
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
+  <depend>serial</depend>
+  <depend>threading</depend>
+  <depend>time</depend>
+  <depend>tf2_ros</depend>
 
+  
   <exec_depend>joy</exec_depend>
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
