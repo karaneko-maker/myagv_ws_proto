@@ -13,7 +13,7 @@ def generate_launch_description():
     inverted = LaunchConfiguration('inverted', default='false')
     angle_compensate = LaunchConfiguration('angle_compensate', default='true')
     scan_mode = LaunchConfiguration('scan_mode', default='Sensitivity')
-    urdf_file = '/home/agv2/myagv_ws/src/myagv_description/urdf/agv.urdf'
+    urdf_file = '/home/agv1/myagv_ws/src/myagv_description/urdf/agv.urdf'
 
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()

@@ -28,7 +28,7 @@ def generate_launch_description():
                     namespace='usb_cam',
                     parameters=[{
                         'video_device': LaunchConfiguration('device', default='/dev/video0'),
-                        'camera_info_url': 'file:///home/agv2/.ros/camera_info/default_cam.yaml'
+                        'camera_info_url': 'file:///home/agv1/.ros/camera_info/default_cam.yaml'
                     }],
                     extra_arguments=[{'use_intra_process_comms': True}]
                 ),
@@ -73,7 +73,7 @@ def generate_launch_description():
             package='usb_cam',
             executable='usb_cam_node_exe',
             name='usb_cam',
-            parameters=['/home/agv2/myagv_ws/src/my_param/usb_cam_params.yaml'],
+            parameters=['/home/agv1/myagv_ws/src/my_param/usb_cam_params.yaml'],
             output='screen',
         ),
     ])
