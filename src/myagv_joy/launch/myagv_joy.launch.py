@@ -11,9 +11,9 @@ def generate_launch_description():
             output='screen'
         ),
         Node(
-            package='teleop_twist_joy',
-            executable='teleop_node',
-            name='teleop_twist_joy',
+            package='myagv_joy',
+            executable='teleop_twist_joy_node',
+            name='teleop_twist_joy_node',
             output='screen'
         ),
     ])
