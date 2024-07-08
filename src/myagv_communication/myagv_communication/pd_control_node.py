@@ -9,9 +9,9 @@ class PDControlNode(Node):
     def __init__(self):
         super().__init__('pd_control_node')
         
-        self.target_distance = 8.0  # 目標距離
-        self.kp = 0.1  # 比例ゲイン
-        self.kd = 0.01  # 微分ゲイン
+        self.target_distance = 7.91  # 目標距離
+        self.kp = 0.87  # 比例ゲイン
+        self.kd = 0.07  # 微分ゲイン
 
         self.cmd_vel_publisher = self.create_publisher(Twist, '/cmd_vel', 10)
         self.pd_control_subscription = self.create_subscription(Bool, '/pd_control_active', self.pd_control_callback, 10)
@@ -50,7 +50,7 @@ class PDControlNode(Node):
 
             cmd_vel_msg = Twist()
             cmd_vel_msg.linear.x = control_signal
-            if abs(cmd_vel_msg.linear.x) <= 0.1:
+            if distance <= 0.005 or abs(cmd_vel_msg.linear.x) <= 0.08:
                 cmd_vel_msg.linear.x = 0.0
                 self.publish_arrival_message()
                 self.pd_control_active = False
